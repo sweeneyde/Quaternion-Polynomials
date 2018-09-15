@@ -12,7 +12,7 @@ from math import sqrt
 class quat_poly:
     def __init__(self, *args):
         assert args[-1] == Q(1, 0, 0, 0)
-        self.coefficients = list(args)
+        self.coefficients = [Q(q) for q in args]
 
     def __call__(self, x):
         return self.eval_at(x)
@@ -75,7 +75,7 @@ class quat_poly:
             if Q(f).norm < 0.01:
                 class_zeros.append(Q(t / 2, sqrt(n - (t / 2) ** 2), 0, 0))
             else:
-                individual_zeros.append(-(f.inverse) * g)
+                individual_zeros.append(Q(-(1/f) * g))
 
         return individual_zeros, class_zeros
 
