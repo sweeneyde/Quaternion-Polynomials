@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="083a9234-e5d8-47d8-9a14-fdd9b2ad6f10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quat_poly.py" beforeDir="false" afterPath="$PROJECT_DIR$/quat_poly.py" afterDir="false" />
+    <list default="true" id="083a9234-e5d8-47d8-9a14-fdd9b2ad6f10" name="Default Changelist" comment="Added successful plotting with Matplotlib.">
       <change beforePath="$PROJECT_DIR$/random_quat_poly.py" beforeDir="false" afterPath="$PROJECT_DIR$/random_quat_poly.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,13 +33,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="2085" />
-          <entry key="py" value="11038" />
+          <entry key="Python Console" value="2124" />
+          <entry key="py" value="11259" />
+          <entry key="txt" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="13123" />
+          <entry key="PLAIN_TEXT" value="46" />
+          <entry key="Python" value="13383" />
         </counts>
       </usages-collector>
     </session>
@@ -65,11 +64,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/random_quat_poly.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="128">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
-                <marker date="1536994665059" expanded="true" signature="566:818" ph="..." />
+                <marker date="1537027530938" expanded="true" signature="486:833" ph="..." />
               </folding>
             </state>
           </provider>
@@ -106,11 +105,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1547" />
-    <option name="y" value="-25" />
-    <option name="width" value="853" />
-    <option name="height" value="500" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1905" />
+    <option name="width" value="1948" />
+    <option name="height" value="2075" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -257,23 +255,31 @@
       <option name="presentableId" value="Default" />
       <updated>1536795626619</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added successful plotting with Matplotlib.">
+      <created>1537019452712</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1537019452712</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19688386" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.19688386" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.28328612" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -310,6 +316,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added successful plotting with Matplotlib." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added successful plotting with Matplotlib." />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/poly_long_division.py" />
     <entry file="file://$PROJECT_DIR$/quaternion.py">
@@ -342,11 +352,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/random_quat_poly.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="128">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
-            <marker date="1536994665059" expanded="true" signature="566:818" ph="..." />
+            <marker date="1537027530938" expanded="true" signature="486:833" ph="..." />
           </folding>
         </state>
       </provider>
