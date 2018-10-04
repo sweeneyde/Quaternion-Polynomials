@@ -50,7 +50,7 @@ class quat_poly:
             # Partial Quotient
             q = remainder[p]  # / 1
 
-            # subtract partial quotient *
+            # subtract partial quotient * divisor
             # del remainder[p]
             remainder[p - 1] += t * q
             remainder[p - 2] -= n * q
@@ -60,9 +60,9 @@ class quat_poly:
 
     def unfiltered_roots(self):
         '''
-        Find the roots of the polynomial using
+        Find the roots of the polynomial using the algorithm in [1].
         :return: A list of individual zeros, and a list
-         of zeros such that every similar quaternion is also a zero;
+         of zeros such that every similar quaternion is also a zero -
          that is, a list of representatives of equivalence classes
         '''
         individual_zeros = []
@@ -75,6 +75,8 @@ class quat_poly:
             if Q(f).norm < 0.01:
                 class_zeros.append(Q(t / 2, sqrt(n - (t / 2) ** 2), 0, 0))
             else:
+                q = Q(-(1/f) * g)
+                assert self(q).norm < 0.000001
                 individual_zeros.append(Q(-(1/f) * g))
 
         return individual_zeros, class_zeros
