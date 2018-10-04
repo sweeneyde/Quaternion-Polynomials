@@ -41,3 +41,9 @@ def plot(quat_list):
     ax.set_zlabel("k")
 
     plt.show()
+
+if __name__ == "__main__":
+    from quat_random_generators import disk_random_qp
+    # Use the same generator, but instead but instead of plotting the roots,
+    # just plot all of the coefficients (concatenate all of the lists)
+    plot(sum(disk_random_qp(degree=2, number=500, radius=10), []))

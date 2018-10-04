@@ -44,13 +44,15 @@ class quat_poly:
         polynomial (x**2 - tx + n).
         Returns the coefficients of the remainder terms
         '''
+
+        # Copy of coefficients to do the division on
         remainder = self.coefficients[:]
 
         for p in range(len(remainder) - 1, 1, -1):
             # Partial Quotient
             q = remainder[p]  # / 1
 
-            # subtract partial quotient * divisor
+            # subtract (partial quotient) * divisor
             # del remainder[p]
             remainder[p - 1] += t * q
             remainder[p - 2] -= n * q
@@ -76,7 +78,7 @@ class quat_poly:
                 class_zeros.append(Q(t / 2, sqrt(n - (t / 2) ** 2), 0, 0))
             else:
                 q = Q(-(1/f) * g)
-                assert self(q).norm < 0.000001
+                assert self.eval_at(q).norm < 0.000001
                 individual_zeros.append(Q(-(1/f) * g))
 
         return individual_zeros, class_zeros
@@ -90,10 +92,12 @@ class quat_poly:
         filtered_classes = []
 
         for q in individuals:
+            # add if unique
             if not any((p - q).norm < 0.000001 for p in filtered_individuals):
                 filtered_individuals.append(q)
 
         for q in classes:
+            # add if unique
             if not any((p - q).norm < 0.000001 for p in filtered_classes):
                 filtered_classes.append(q)
 
@@ -115,6 +119,7 @@ def right_eigenvalues(A):
     Takes in a quaternion matrix A and outputs its left eigenvalues
     :return: A list of left eigenvalues of A
     '''
+    # Cast to quaternions
     A = [[Q(q) for q in row] for row in A]
 
     # Decompose each element of A into A_1 + A_2*j
@@ -124,6 +129,9 @@ def right_eigenvalues(A):
     A_2_neg_conj = [[-z.conjugate() for z in row] for row in A_2]
     A_1_conj = [[z.conjugate() for z in row] for row in A_1]
 
+    # Get the block matrix
+    # | A1        A2      |
+    # | -A2_conj  A1_conj |
     phi = [row1 + row2 for row1, row2 in zip(A_1, A_2)] \
           + [row1 + row2 for row1, row2 in zip(A_2_neg_conj, A_1_conj)]
 

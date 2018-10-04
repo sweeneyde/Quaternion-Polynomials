@@ -2,25 +2,20 @@ from quat_poly import quat_poly
 from quat_random_generators import *
 from quat_plotter import plot
 
-########## Generate ################################################
+########## Choose which polynomials ################################
 
-polynomial_generator = ball_random_qp(degree=2, number=100, radius=10)
+polynomial_generator = all_signs_qp(degree=3)
 
+########## Solve them ##############################################
 
-########## Solve ###################################################
+individual_solutions = []
 
-individual_solutions = [] #set()
-# solution_classes = set()
 for coefficients in polynomial_generator:
     # Construct a monic quaternion polynomial:
     p = quat_poly(*coefficients, 1)
-
     inds, cls = p.roots()
     individual_solutions += inds
-#    solution_classes |= set(cls)
 
-
-########## Plot ####################################################
+########## Plot the solutions ######################################
 
 plot(individual_solutions)
-#plot( sum(disk_random_qp(degree=2, number=100, radius =10), []) )
