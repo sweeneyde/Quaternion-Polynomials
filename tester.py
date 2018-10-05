@@ -1,10 +1,12 @@
 from quat_poly import quat_poly
 from quat_random_generators import *
 from quat_plotter import plot
+import csv
+import time
 
 ########## Choose which polynomials ################################
 
-polynomial_generator = all_signs_qp(degree=3)
+polynomial_generator = all_signs_qp(degree=4)
 
 ########## Solve them ##############################################
 
@@ -16,6 +18,11 @@ for coefficients in polynomial_generator:
     inds, cls = p.roots()
     individual_solutions += inds
 
+with open(str(int(time.time()))+"_solns.txt", 'w', newline='') as file:
+    out = csv.writer(file, delimiter=',')
+    for a,b,c,d in individual_solutions:
+        out.writerow((a,b,c,d))
+
 ########## Plot the solutions ######################################
 
-plot(individual_solutions)
+#plot([(b,c,d,a) for a,b,c,d in individual_solutions])

@@ -14,7 +14,7 @@ def plot(quat_list):
     fig = plt.figure()
     ax = fig.gca(projection='3d')
     ax.set_aspect("equal")
-    pnt3d = ax.scatter(x, y, z, c=c, cmap=plt.viridis())
+    pnt3d = ax.scatter(x, y, z, c=c, cmap=plt.viridis(), depthshade=False, marker=',', s=1)
 
     # def draw_sphere(r, color):
     #     u, v = np.mgrid[0:2 * np.pi:20j, 0:np.pi:10j]
@@ -22,7 +22,6 @@ def plot(quat_list):
     #     y = np.sin(u) * np.sin(v)
     #     z = np.cos(v)
     #     ax.plot_wireframe(r * x, r * y, r * z)
-    #     # TODO: fix color
     #
     #
     # for a, b, _, _ in solution_classes:
@@ -43,7 +42,7 @@ def plot(quat_list):
     plt.show()
 
 if __name__ == "__main__":
-    from quat_random_generators import disk_random_qp
+    from quat_random_generators import ball_random_qp
     # Use the same generator, but instead but instead of plotting the roots,
     # just plot all of the coefficients (concatenate all of the lists)
-    plot(sum(disk_random_qp(degree=2, number=500, radius=10), []))
+    plot(sum(ball_random_qp(degree=2, number=500, radius=10), []))
