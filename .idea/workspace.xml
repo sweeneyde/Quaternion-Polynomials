@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="083a9234-e5d8-47d8-9a14-fdd9b2ad6f10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/quat_plotter_2D.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/misc_data_analysis.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quat_plotter.py" beforeDir="false" afterPath="$PROJECT_DIR$/quat_plotter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tester.py" beforeDir="false" afterPath="$PROJECT_DIR$/tester.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quat_plotter_2D.py" beforeDir="false" afterPath="$PROJECT_DIR$/quat_plotter_2D.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quat_poly.py" beforeDir="false" afterPath="$PROJECT_DIR$/quat_poly.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quat_random_generators.py" beforeDir="false" afterPath="$PROJECT_DIR$/polynomial_generators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tester.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,38 +20,45 @@
     <session id="1898921593">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="13" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.3" value="2" />
-          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.4" value="4" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="15" />
-          <entry key="txt" value="4" />
+          <entry key="gif" value="2" />
+          <entry key="py" value="27" />
+          <entry key="txt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="15" />
+          <entry key="Image" value="2" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Python" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="2711" />
-          <entry key="dummy" value="31" />
-          <entry key="py" value="15964" />
-          <entry key="txt" value="167" />
+          <entry key="Python Console" value="3361" />
+          <entry key="dummy" value="79" />
+          <entry key="py" value="19476" />
+          <entry key="txt" value="244" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="198" />
-          <entry key="Python" value="18675" />
+          <entry key="PLAIN_TEXT" value="323" />
+          <entry key="Python" value="22837" />
         </counts>
       </usages-collector>
     </session>
@@ -58,61 +68,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/quat_poly.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="603">
-              <caret line="96" column="27" selection-start-line="96" selection-start-column="27" selection-end-line="96" selection-end-column="27" />
+            <state relative-caret-position="469">
+              <caret line="111" column="42" lean-forward="true" selection-start-line="111" selection-start-column="42" selection-end-line="111" selection-end-column="42" />
               <folding>
-                <element signature="e#248#288#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tester.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
+                <marker date="1541025164956" expanded="true" signature="848:944" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data_analysis.py">
+        <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            <state relative-caret-position="117">
+              <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
-                <marker date="1538725361627" expanded="true" signature="228:341" ph="..." />
-                <marker date="1538725361627" expanded="true" signature="681:682" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quat_plotter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="43" column="26" lean-forward="true" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-                <marker date="1538723959628" expanded="true" signature="112:113" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quat_plotter_2D.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="35" column="69" lean-forward="true" selection-start-line="35" selection-start-column="69" selection-end-line="35" selection-end-column="69" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#31#0" expanded="true" />
+                <marker date="1541025183067" expanded="true" signature="844:845" ph="..." />
               </folding>
             </state>
           </provider>
@@ -131,6 +103,7 @@
     <findStrings>
       <find>&quot;</find>
       <find>__init</find>
+      <find>mapper</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -146,20 +119,23 @@
         <option value="$PROJECT_DIR$/q2.py" />
         <option value="$PROJECT_DIR$/quaternion.py" />
         <option value="$PROJECT_DIR$/random_quat_poly.py" />
-        <option value="$PROJECT_DIR$/quat_poly.py" />
         <option value="$PROJECT_DIR$/quat_random_generators.py" />
-        <option value="$PROJECT_DIR$/quat_plotter.py" />
-        <option value="$PROJECT_DIR$/quat_plotter_2D.py" />
-        <option value="$PROJECT_DIR$/tester.py" />
         <option value="$PROJECT_DIR$/data_analysis.py" />
+        <option value="$PROJECT_DIR$/misc_data_analysis.py" />
+        <option value="$PROJECT_DIR$/tester.py" />
+        <option value="$PROJECT_DIR$/polynomial_generators.py" />
+        <option value="$PROJECT_DIR$/quat_plotter_2D.py" />
+        <option value="$PROJECT_DIR$/quat_plotter.py" />
+        <option value="$PROJECT_DIR$/quat_poly.py" />
+        <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1335" />
-    <option name="y" value="-25" />
-    <option name="width" value="1950" />
-    <option name="height" value="2060" />
+    <option name="x" value="825" />
+    <option name="y" value="-65" />
+    <option name="width" value="2135" />
+    <option name="height" value="2195" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -167,6 +143,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -178,12 +155,16 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/sween/PycharmProjects/Quaternions/quat_poly.py" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sween\PycharmProjects\Quaternions" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -197,8 +178,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.data_analysis">
-    <configuration name="data_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Quaternions" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -210,7 +191,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_analysis.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -261,7 +242,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="quat_random_generators" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="quat_poly" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Quaternions" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -273,7 +254,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/quat_random_generators.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/quat_poly.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -315,7 +296,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tester.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\sween\PycharmProjects\Quaternions\main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -327,18 +308,18 @@
     <list>
       <item itemvalue="Python.quaternion" />
       <item itemvalue="Python.tester" />
-      <item itemvalue="Python.quat_random_generators" />
-      <item itemvalue="Python.data_analysis" />
       <item itemvalue="Python.quat_plotter_2D" />
       <item itemvalue="Python.quat_plotter" />
+      <item itemvalue="Python.quat_poly" />
+      <item itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.data_analysis" />
-        <item itemvalue="Python.tester" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.quat_poly" />
         <item itemvalue="Python.quat_plotter_2D" />
         <item itemvalue="Python.quat_plotter" />
-        <item itemvalue="Python.quat_random_generators" />
+        <item itemvalue="Python.tester" />
       </list>
     </recent_temporary>
   </component>
@@ -381,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1538675365663</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Did some good plotting, added 2D projection and histogram features">
+      <created>1538725565283</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1538725565283</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -397,12 +385,12 @@
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27212682" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3293011" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28045326" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4490085" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -410,7 +398,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.33427763" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.2733711" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.47875354" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -449,7 +437,8 @@
     <MESSAGE value="Added successful plotting with Matplotlib." />
     <MESSAGE value="Refactored into more files" />
     <MESSAGE value="Added testers and fixed the all_signs_qp mthod" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added testers and fixed the all_signs_qp mthod" />
+    <MESSAGE value="Did some good plotting, added 2D projection and histogram features" />
+    <option name="LAST_COMMIT_MESSAGE" value="Did some good plotting, added 2D projection and histogram features" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/poly_long_division.py" />
@@ -462,85 +451,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Solns.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="12992" column="21" selection-start-line="12992" selection-start-column="21" selection-end-line="12992" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Solns.txt" />
     <entry file="file://$PROJECT_DIR$/degree_3_signs_solutions.txt">
       <provider selected="true" editor-type-id="LargeFileEditor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/quat_poly.py">
+    <entry file="file://$PROJECT_DIR$/1538722192_solns.txt" />
+    <entry file="file://$USER_HOME$/Quaternions/Lib/site-packages/mapper/mapper_output.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Quaternions/Lib/site-packages/mapper/tools/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="96" column="27" selection-start-line="96" selection-start-column="27" selection-end-line="96" selection-end-column="27" />
-          <folding>
-            <element signature="e#248#288#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-48" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Quaternions/Lib/site-packages/mapper/metric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/degree_2_signs_solutions.txt">
+    <entry file="file://$USER_HOME$/Quaternions/Lib/site-packages/mapper/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-207517" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1538722192_solns.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-207319" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quat_random_generators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="448">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tester.py">
+    <entry file="file://$USER_HOME$/Quaternions/Lib/site-packages/mapper/_mapper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1321">
+          <caret line="246" column="74" selection-start-line="246" selection-start-column="74" selection-end-line="246" selection-end-column="74" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quat_plotter.py">
+    <entry file="file://$PROJECT_DIR$/degree2_scan.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/misc_data_analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="43" column="26" lean-forward="true" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <marker date="1538723959628" expanded="true" signature="112:113" ph="..." />
-          </folding>
+        <state relative-caret-position="128">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polynomial_generators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/quat_plotter_2D.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="35" column="69" lean-forward="true" selection-start-line="35" selection-start-column="69" selection-end-line="35" selection-end-column="69" />
+        <state relative-caret-position="159">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quat_plotter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/degree_2_signs_solutions.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/degree3_scan.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quat_poly.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="111" column="42" lean-forward="true" selection-start-line="111" selection-start-column="42" selection-end-line="111" selection-end-column="42" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <marker date="1541025164956" expanded="true" signature="848:944" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_analysis.py">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        <state relative-caret-position="117">
+          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <marker date="1538725361627" expanded="true" signature="228:341" ph="..." />
-            <marker date="1538725361627" expanded="true" signature="681:682" ph="..." />
+            <element signature="e#0#31#0" expanded="true" />
+            <marker date="1541025183067" expanded="true" signature="844:845" ph="..." />
           </folding>
         </state>
       </provider>

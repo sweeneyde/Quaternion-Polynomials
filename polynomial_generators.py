@@ -4,15 +4,13 @@ from pyquaternion import Quaternion as Q
 from itertools import product
 
 def all_signs_qp(degree):
-    all_quats = product((-1, 0, 1), repeat=4)
-    for coords in product(all_quats, repeat=degree):
-        yield [Q(a) for a in coords]
+    all_quats = tuple(Q(x) for x in product((-1, 0, 1), repeat=4))
+    return product(all_quats, repeat=degree)
 
 def uniform_random_qp(degree, smallest, biggest, number):
     r = lambda: uniform(smallest, biggest)
     for _ in range(number):
         yield [Q(r(), r(), r(), r()) for _ in range(degree)]
-
 
 def gaussian_random_qp(degree, number):
     r = lambda: gauss(0, 10)

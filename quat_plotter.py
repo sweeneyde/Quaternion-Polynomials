@@ -11,10 +11,11 @@ def plot(quat_list):
 
     print("plotting...")
 
+    # plt.style.use('dark_background')
     fig = plt.figure()
     ax = fig.gca(projection='3d')
     ax.set_aspect("equal")
-    pnt3d = ax.scatter(x, y, z, c=c, cmap=plt.viridis(), depthshade=False, marker=',', s=1)
+    pnt3d = ax.scatter(x, y, z, c=c, cmap=plt.cm.get_cmap("viridis"), depthshade=False, marker=',', s=1)
 
     # def draw_sphere(r, color):
     #     u, v = np.mgrid[0:2 * np.pi:20j, 0:np.pi:10j]
@@ -42,7 +43,7 @@ def plot(quat_list):
     plt.show()
 
 if __name__ == "__main__":
-    from quat_random_generators import ball_random_qp
+    from polynomial_generators import ball_random_qp
     # Use the same generator, but instead but instead of plotting the roots,
     # just plot all of the coefficients (concatenate all of the lists)
     plot(sum(ball_random_qp(degree=2, number=500, radius=10), []))
