@@ -127,6 +127,7 @@ def complex_to_quat(z):
 
 def right_eigenvalues(A):
     """ Takes in a quaternion matrix A and outputs its right eigenvalues
+
     :return: A list of right eigenvalues of A
     """
 

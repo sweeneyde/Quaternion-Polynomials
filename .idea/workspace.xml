@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="083a9234-e5d8-47d8-9a14-fdd9b2ad6f10" name="Default Changelist" comment="Cleaned up main">
+    <list default="true" id="083a9234-e5d8-47d8-9a14-fdd9b2ad6f10" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/degree2_scan.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/degree3_scan.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/degree_2_signs_solutions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polynomial_generators.py" beforeDir="false" afterPath="$PROJECT_DIR$/polynomial_generators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/generate_roots_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc_data_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualizations.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quat_poly.py" beforeDir="false" afterPath="$PROJECT_DIR$/quat_poly.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,87 +17,59 @@
     <session id="1898921593">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="20" />
+          <entry key="project.closed" value="21" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.3" value="5" />
+          <entry key="project.open.time.3" value="6" />
           <entry key="project.open.time.4" value="8" />
           <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="25" />
+          <entry key="project.opened" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="24" />
+          <entry key="csv" value="25" />
           <entry key="gif" value="2" />
-          <entry key="py" value="34" />
+          <entry key="py" value="48" />
           <entry key="txt" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="2" />
-          <entry key="PLAIN_TEXT" value="32" />
-          <entry key="Python" value="34" />
+          <entry key="PLAIN_TEXT" value="33" />
+          <entry key="Python" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="3437" />
-          <entry key="dummy" value="87" />
-          <entry key="py" value="24822" />
-          <entry key="txt" value="420" />
+          <entry key="dummy" value="176" />
+          <entry key="py" value="25375" />
+          <entry key="txt" value="556" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="507" />
-          <entry key="Python" value="28259" />
+          <entry key="PLAIN_TEXT" value="732" />
+          <entry key="Python" value="28812" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="78" column="34" selection-start-line="78" selection-start-column="34" selection-end-line="78" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/polynomial_generators.py">
+        <entry file="file://$PROJECT_DIR$/data_visualizations.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+            <state relative-caret-position="432">
+              <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
               <folding>
-                <element signature="e#0#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quat_poly.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="e#248#269#0" expanded="true" />
-                <element signature="e#5035#7509#0" />
-                <element signature="e#5009#5811#0" />
-                <element signature="e#5839#6330#0" />
-                <element signature="e#6358#6611#0" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,28 +110,36 @@
         <option value="$PROJECT_DIR$/random_quat_poly.py" />
         <option value="$PROJECT_DIR$/quat_random_generators.py" />
         <option value="$PROJECT_DIR$/data_analysis.py" />
-        <option value="$PROJECT_DIR$/misc_data_analysis.py" />
         <option value="$PROJECT_DIR$/tester.py" />
         <option value="$PROJECT_DIR$/quat_plotter_2D.py" />
         <option value="$PROJECT_DIR$/quat_plotter.py" />
         <option value="$PROJECT_DIR$/main_for_big_data.py" />
+        <option value="$PROJECT_DIR$/polynomial_generators.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/quat_poly.py" />
-        <option value="$PROJECT_DIR$/polynomial_generators.py" />
+        <option value="$PROJECT_DIR$/gl.py" />
+        <option value="$PROJECT_DIR$/visualization.py" />
+        <option value="$USER_HOME$/Quaternions/Lib/site-packages/glumpy/ext/__init__.py" />
+        <option value="$PROJECT_DIR$/misc_data_analysis.py" />
+        <option value="$PROJECT_DIR$/data_visualizations.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1945" />
-    <option name="width" value="1910" />
-    <option name="height" value="2075" />
+    <option name="x" value="-833" />
+    <option name="y" value="141" />
+    <option name="width" value="764" />
+    <option name="height" value="830" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,18 +151,17 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/sween/PycharmProjects/Quaternions/quat_poly.py" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\sween\PycharmProjects\Quaternions" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\sween\PycharmProjects\Quaternions" />
     </key>
   </component>
@@ -201,7 +177,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.polynomial_generators">
+  <component name="RunManager" selected="Python.visualization">
+    <configuration name="gl" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Quaternions" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\sween\PycharmProjects\Quaternions\visualization.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Quaternions" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -214,7 +211,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\sween\PycharmProjects\Quaternions\generate_roots_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -223,7 +220,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main_for_big_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="misc_data_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Quaternions" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -235,7 +232,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\sween\PycharmProjects\Quaternions\main.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\sween\PycharmProjects\Quaternions\data_visualizations.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -265,48 +262,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="quat_plotter_2D" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Quaternions" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/quat_plotter_2D.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="quat_poly" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Quaternions" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/quat_poly.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="quaternion" type="PythonConfigurationType" factoryName="Python">
       <module name="Quaternions" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -328,21 +283,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="visualization" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Quaternions" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/visualization.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.quaternion" />
-      <item itemvalue="Python.quat_plotter_2D" />
-      <item itemvalue="Python.quat_poly" />
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.main_for_big_data" />
       <item itemvalue="Python.polynomial_generators" />
+      <item itemvalue="Python.misc_data_analysis" />
+      <item itemvalue="Python.gl" />
+      <item itemvalue="Python.visualization" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.polynomial_generators" />
-        <item itemvalue="Python.main_for_big_data" />
+        <item itemvalue="Python.visualization" />
+        <item itemvalue="Python.gl" />
+        <item itemvalue="Python.misc_data_analysis" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.quat_poly" />
-        <item itemvalue="Python.quat_plotter_2D" />
+        <item itemvalue="Python.polynomial_generators" />
       </list>
     </recent_temporary>
   </component>
@@ -420,7 +396,14 @@
       <option name="project" value="LOCAL" />
       <updated>1541026884905</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="We can now handle much bigger data without memory overflow.">
+      <created>1541265957908</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1541265957908</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -433,22 +416,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
+    <frame x="-1688" y="149" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20409511" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18636912" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993395" visible="true" weight="0.07082153" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5891678" weight="0.40509915" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.7266289" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.65257597" weight="0.55807364" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.34742403" side_tool="true" weight="0.41218132" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.41083223" side_tool="true" weight="0.40509915" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.31586403" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -514,7 +497,8 @@
     <MESSAGE value="Temporarily gave up on multiprocessing" />
     <MESSAGE value="Added gifs and raw data" />
     <MESSAGE value="Cleaned up main" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up main" />
+    <MESSAGE value="We can now handle much bigger data without memory overflow." />
+    <option name="LAST_COMMIT_MESSAGE" value="We can now handle much bigger data without memory overflow." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/poly_long_division.py" />
@@ -558,95 +542,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/degree2_scan.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/misc_data_analysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quat_plotter_2D.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quat_plotter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/degree3_scan.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/degree2_scan.gif" />
+    <entry file="file://$PROJECT_DIR$/degree3_scan.gif" />
     <entry file="file://$PROJECT_DIR$/degree_3_signs_solutions.txt" />
     <entry file="file://$PROJECT_DIR$/degree_2_signs_solutions.txt" />
     <entry file="file://$PROJECT_DIR$/degree3_class_solns.txt" />
-    <entry file="file://$PROJECT_DIR$/degree_2_class_roots.csv">
+    <entry file="file://$PROJECT_DIR$/degree_2_class_roots.csv" />
+    <entry file="file://$PROJECT_DIR$/degree_3_class_roots.csv" />
+    <entry file="file://$PROJECT_DIR$/degree_3_individual_roots.csv" />
+    <entry file="file://$PROJECT_DIR$/degree_2_individual_roots.csv" />
+    <entry file="file://$PROJECT_DIR$/Raw Data/degree_1_class_roots.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/degree_3_class_roots.csv">
+    <entry file="file://$PROJECT_DIR$/generate_roots_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3895" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/degree_3_individual_roots.csv">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="319">
-          <caret line="16009" column="70" lean-forward="true" selection-start-line="16009" selection-start-column="70" selection-end-line="16009" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/degree_2_individual_roots.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-138662" />
-      </provider>
-      <provider editor-type-id="LargeFileEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-224">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="78" column="34" selection-start-line="78" selection-start-column="34" selection-end-line="78" selection-end-column="34" />
+        <state relative-caret-position="-16">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quat_poly.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#248#269#0" expanded="true" />
-            <element signature="e#5035#7509#0" />
-            <element signature="e#5009#5811#0" />
-            <element signature="e#5839#6330#0" />
-            <element signature="e#6358#6611#0" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/polynomial_generators.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        <state relative-caret-position="32">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Quaternions/Lib/site-packages/glumpy/ext/freetype/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Quaternions/Lib/site-packages/glumpy/ext/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Quaternions/Lib/site-packages/glumpy/ext/glfw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Quaternions/Lib/site-packages/glumpy/app/window/backends/backend_glfw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Python37/Lib/importlib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="126" selection-start-line="126" selection-end-line="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Quaternions/Lib/site-packages/glumpy/app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualization.py" />
+    <entry file="file://$PROJECT_DIR$/quat_plotter_2D.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quat_plotter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quat_poly.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="70" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="70" />
           <folding>
-            <element signature="e#0#33#0" expanded="true" />
+            <element signature="e#248#269#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_visualizations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>

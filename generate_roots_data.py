@@ -1,8 +1,8 @@
+from itertools import repeat
+from time import perf_counter as time
+import multiprocessing as mp
 from quat_poly import quat_poly
 from polynomial_generators import *
-from time import perf_counter as time
-from itertools import repeat
-import multiprocessing as mp
 
 ########## Choose Polynomials and Output Files ###############################
 
