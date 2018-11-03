@@ -1,44 +1,44 @@
-'''
+"""
 Gets the quaternion roots of a quaternion polynomial.
 This algorithm comes from:
 [1] R.Serôdio, E.Pereira, and J.Vitória. Computing the zeros of quaternion polynomials.
     http://www.sciencedirect.com/science/article/pii/S0898122101002358
-'''
-from pyquaternion import Quaternion
-from numpy import linalg as LA
+"""
 from math import sqrt
+from numpy import linalg
+from pyquaternion import Quaternion
 
 
 class quat_poly:
     def __init__(self, *args):
         # make sure we're monic
-        assert args[-1] == 1
+        # assert args[-1] == 1
         self.coefficients = [Quaternion(q) for q in args]
 
     def __call__(self, x):
         return self.eval_at(x)
 
     def eval_at(self, x):
-        '''Evaluate the polynomial at a point'''
+        """Evaluate the polynomial at a point"""
         return sum((k * (x ** i) for i, k in enumerate(self.coefficients)), Quaternion(0))
 
     def __repr__(self):
-        return "quat_poly({})".format(", ".join(self.coefficients))
+        return "quat_poly({})".format(", ".join(str(q) for q in self.coefficients))
 
     def __str__(self):
-        return "\n + ".join(f"({str(c)})x^{p}" for p, c in enumerate(self.coefficients) )
+        return "\n + ".join(f"({str(c)})x^{p}" for p, c in enumerate(self.coefficients))
 
     def companion_matrix(self):
-        '''
-        Gets the following complex square matrix, consisting of an upper
-        off-diagonal of ones and a bottom row of the polynomial coefficients:
-        | 0    1    0   ...   0  |
-        | 0    0    1   ...   0  |
-        | ....................   |
-        | 0    0    0   ...   1  |
-        |-q_0, -q_1 ... -q_{m-1} |
-        :return: The list of lists representing this companion matrix
-        '''
+        """ Gets the following complex square matrix, consisting of an upper
+            off-diagonal of ones and a bottom row of the polynomial coefficients:
+            | 0    1    0   ...   0  |
+            | 0    0    1   ...   0  |
+            | ....................   |
+            | 0    0    0   ...   1  |
+            |-q_0, -q_1 ... -q_{m-1} |
+        :return:
+            The list of lists representing this companion matrix
+        """
         m = len(self.coefficients) - 1
         return \
             [[int(j == i + 1) for j in range(m)]
@@ -46,11 +46,11 @@ class quat_poly:
             + [[-q for q in self.coefficients[:-1]]]
 
     def poly_long_remainder(self, t, n):
-        '''
-        Long-divides the quaternion polynomial by characteristic
-        polynomial (x^2 - tx + n).
-        Returns the coefficients of the remainder terms
-        '''
+        """ Long-divides the quaternion polynomial by characteristic
+            polynomial (x^2 - tx + n).
+        :return:
+            the coefficients of the remainder terms
+        """
 
         # Copy of coefficients to do the division on
         remainder = self.coefficients[:]
@@ -67,13 +67,14 @@ class quat_poly:
         f, g = remainder[1], remainder[0]
         return f, g
 
-    def unfiltered_roots(self):
-        '''
-        Find the roots of the polynomial using the algorithm in [1].
-        :return: A list of individual zeros, and a list of zeros such
-         that every similar quaternion is also a zero - that is, a list
-         of representatives of equivalence classes of zeros
-        '''
+    def roots(self):
+        """
+            Find the roots of the polynomial using the algorithm in [1].
+        :return:
+            A list of individual zeros, and a list of zeros such
+            that every similar quaternion is also a zero - that is,
+            a list of representatives of equivalence classes of zeros
+        """
         individual_zeros = []
         class_zeros = []
         for l in right_eigenvalues(self.companion_matrix()):
@@ -88,15 +89,15 @@ class quat_poly:
             else:
                 q = Quaternion(-(1 / f) * g)
                 # assert self.eval_at(q).norm < 0.000001
-                individual_zeros.append(Quaternion(-(1 / f) * g))
+                individual_zeros.append(q)
 
         return individual_zeros, class_zeros
 
-    def roots(self):
-        '''
+    def distinct_roots(self):
+        """
         :return: same as unfiltered roots, but with duplicates removed.
-        '''
-        individuals, classes = self.unfiltered_roots()
+        """
+        individuals, classes = self.roots()
 
         filtered_individuals = []
         filtered_classes = []
@@ -125,10 +126,10 @@ def complex_to_quat(z):
 
 
 def right_eigenvalues(A):
-    '''
-    Takes in a quaternion matrix A and outputs its left eigenvalues
-    :return: A list of left eigenvalues of A
-    '''
+    """ Takes in a quaternion matrix A and outputs its right eigenvalues
+    :return: A list of right eigenvalues of A
+    """
+
     # Cast to quaternions
     A = [[Quaternion(q) for q in row] for row in A]
 
@@ -143,9 +144,9 @@ def right_eigenvalues(A):
     # | A1        A2      |
     # | -A2_conj  A1_conj |
     phi = [row1 + row2 for row1, row2 in zip(A_1, A_2)] \
-          + [row1 + row2 for row1, row2 in zip(A_2_neg_conj, A_1_conj)]
+        + [row1 + row2 for row1, row2 in zip(A_2_neg_conj, A_1_conj)]
 
-    return LA.eigvals(phi)
+    return linalg.eigvals(phi)
 
 
 if __name__ == '__main__':

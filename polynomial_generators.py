@@ -27,7 +27,7 @@ def ball_random_qp(degree, number, radius=1):
     for _ in range(number):
         yield [on_ball()*radius for _ in range(degree)]
 
-def disk_random_qp(degree, number, radius=1):
+def sphere_random_qp(degree, number, radius=1):
     r = lambda: uniform(0, 2*math.pi)
     def on_disk():
         t = r()
