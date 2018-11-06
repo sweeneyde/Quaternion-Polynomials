@@ -7,7 +7,7 @@ from polynomial_generators import *
 ########## Choose Polynomials and Output Files ###############################
 
 # my machine: 2 takes a few seconds, 3 takes a few minutes, 4 takes a few hours
-degree = 4
+degree = 2
 
 polynomial_generator = all_signs_qp(degree)
 
